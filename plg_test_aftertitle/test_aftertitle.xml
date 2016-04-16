@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="content" method="upgrade">
+	<author>Sergio Manzi</author>
+	<authorEmail>info@smz.it</authorEmail>
+	<authorUrl>smz.it</authorUrl>
+	<copyright>Copyright (C) 2013 - 2016 Sergio Manzi. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or (at your option) any later version.</license>
+	<name>Test Aftertitle</name>
+	<description>Test for the onContentAfterTitle event</description>
+	<version>1.0.0</version>
+	<creationDate>April 2016</creationDate>
+	<files folder="plugin" destination="test_aftertitle">
+		<filename plugin="test_aftertitle">test_aftertitle.php</filename>
+	</files>
+</extension>
